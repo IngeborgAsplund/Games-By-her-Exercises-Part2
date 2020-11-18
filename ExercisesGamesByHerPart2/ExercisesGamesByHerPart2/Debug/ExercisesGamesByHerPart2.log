@@ -1,3 +1,4 @@
-﻿  ExercisesGamesByHerPart2.cpp
-C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2.cpp(18,23): warning C4018: '<': signed/unsigned mismatch
+﻿  Student.cpp
+C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\Student.cpp(10,18): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\Student.cpp(14,16): warning C4244: 'initializing': conversion from 'unsigned int' to 'float', possible loss of data
   ExercisesGamesByHerPart2.vcxproj -> C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\Debug\ExercisesGamesByHerPart2.exe

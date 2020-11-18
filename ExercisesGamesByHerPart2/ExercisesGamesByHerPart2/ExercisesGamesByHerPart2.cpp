@@ -3,6 +3,7 @@
 #include<iostream>
 #include<vector>
 #include"mySong.h"
+#include"student.h"
 int userInput = 0;
 bool finished = false;
 
@@ -21,6 +22,23 @@ void AddAndReadSongTitles()
     }
 
 }
+void AddStudents()
+{
+    Student student1;
+    student1.name = "Bob Andersen";
+    student1.AddTestScore(20);
+    student1.AddTestScore(50);
+    student1.AddTestScore(45);
+
+    Student student2;
+    student2.name = "Amanda Green";
+    student2.AddTestScore(70);
+    student2.AddTestScore(90);
+    student2.AddTestScore(40);
+
+    std::cout << "\n" << "The average score of " << student1.name << "is " << student1.AverageScore();
+    std::cout << "\n" << "The average score of " << student2.name << "is " << student2.AverageScore();
+}
 void mainLoop()
 {
     while(!finished)
@@ -33,6 +51,7 @@ void mainLoop()
             AddAndReadSongTitles();
             break;
         case 2:
+            AddStudents();
             break;
         case 0:
             finished = true;
