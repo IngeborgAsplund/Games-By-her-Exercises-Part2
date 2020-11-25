@@ -11,7 +11,7 @@ class Student
 		//add a score to std vector<int> testScores
 		void AddTestScore(int score);
 		//calculate the avarage scores based on the added scores
-		float AverageScore();
+		float AverageScore();		
 	private:
 		std::vector<int>testScores;
 };
