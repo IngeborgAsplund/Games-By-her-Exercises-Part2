@@ -13,28 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{4d4ee921-ffe2-4cd5-83be-e4d387809c42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ExercisesGamesByHerPart2.cpp">
+    <ClCompile Include="readandwritetext.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Student.cpp">
+    <ClCompile Include="exercisesgamesbyherpart2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PersonHandler.cpp">
+    <ClCompile Include="personhandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Song.cpp">
+    <ClCompile Include="student.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TrackVectorChange.cpp">
+    <ClCompile Include="trackvectorchange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mysong.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mySong.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="student.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -44,5 +47,25 @@
     <ClInclude Include="trackVectorChange.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="readandwritetext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mysong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="exercises1.txt">
+      <Filter>Content</Filter>
+    </Text>
+    <Text Include="continuation.txt">
+      <Filter>Content</Filter>
+    </Text>
+    <Text Include="merge.txt">
+      <Filter>Content</Filter>
+    </Text>
+    <Text Include="songLibrary.txt">
+      <Filter>Content</Filter>
+    </Text>
   </ItemGroup>
 </Project>

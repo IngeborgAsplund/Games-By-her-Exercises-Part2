@@ -147,17 +147,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ExercisesGamesByHerPart2.cpp" />
-    <ClCompile Include="PersonHandler.cpp" />
-    <ClCompile Include="Song.cpp" />
-    <ClCompile Include="Student.cpp" />
-    <ClCompile Include="TrackVectorChange.cpp" />
+    <ClCompile Include="exercisesgamesbyherpart2.cpp" />
+    <ClCompile Include="personhandler.cpp" />
+    <ClCompile Include="readandwritetext.cpp" />
+    <ClCompile Include="mysong.cpp" />
+    <ClCompile Include="student.cpp" />
+    <ClCompile Include="trackvectorchange.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mySong.h" />
+    <ClInclude Include="mysong.h" />
     <ClInclude Include="person.h" />
+    <ClInclude Include="readandwritetext.h" />
     <ClInclude Include="student.h" />
     <ClInclude Include="trackVectorChange.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="continuation.txt" />
+    <Text Include="exercises1.txt" />
+    <Text Include="merge.txt" />
+    <Text Include="songLibrary.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

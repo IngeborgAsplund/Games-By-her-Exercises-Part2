@@ -6,11 +6,13 @@
 #include"person.h"
 #include"student.h"
 #include"trackVectorChange.h"
+#include"readandwritetext.h"
 int userInput = 0;
 bool finished = false;
 SondDataBase album;
 PersonHandler people;
 TrackVectorChange vectorTest;
+ReadAndWrtieText textwriter;
 
 void AddStudents()
 {
@@ -33,7 +35,7 @@ void mainLoop()
 {
     while(!finished)
     {
-        std::cout << "\n Welcome to exercises compilation2 input a number between 1 and 4 to run the exercises and 0 to quit" << "\n";
+        std::cout << "\n Welcome to exercises compilation2 input a number between 1 and 8 to run the exercises and 0 to quit" << "\n";
         std::cin >> userInput;  
         switch (userInput)
         {
@@ -48,6 +50,18 @@ void mainLoop()
             break;
         case 4:
             vectorTest.AddItemsAndTrackChanges();
+            break;
+        case 5:
+            textwriter.WriteToFile();
+            break;
+        case 6:
+            textwriter.ReadFromFile();
+            break;
+        case 7:
+            textwriter.Merge();
+            break;
+        case 8:
+            album.ReadSongsFromSource();
             break;
         case 0:
             finished = true;

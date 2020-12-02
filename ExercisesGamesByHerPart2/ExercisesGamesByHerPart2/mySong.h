@@ -1,4 +1,5 @@
 #pragma once
+#include<fstream>
 #include<string>
 #include<iostream>
 #include<vector>
@@ -11,6 +12,7 @@ class SondDataBase
 {
 public:
 	void Initialize();
+	void ReadSongsFromSource();
 	const Song* FindOne(const std::string& title);
 	std::vector<Song*> FindSongsByArtist(const std::string& artist);
 private:
