@@ -147,17 +147,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="animal.cpp" />
     <ClCompile Include="exercisesgamesbyherpart2.cpp" />
     <ClCompile Include="personhandler.cpp" />
     <ClCompile Include="readandwritetext.cpp" />
     <ClCompile Include="mysong.cpp" />
+    <ClCompile Include="shapes.cpp" />
     <ClCompile Include="student.cpp" />
     <ClCompile Include="trackvectorchange.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="animal.h" />
     <ClInclude Include="mysong.h" />
     <ClInclude Include="person.h" />
     <ClInclude Include="readandwritetext.h" />
+    <ClInclude Include="shapes.h" />
     <ClInclude Include="student.h" />
     <ClInclude Include="trackVectorChange.h" />
   </ItemGroup>

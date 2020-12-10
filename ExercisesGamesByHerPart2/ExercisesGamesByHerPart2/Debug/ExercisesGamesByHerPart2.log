@@ -1,7 +1,4 @@
-﻿  mysong.cpp
-C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\mysong.cpp(24,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\mysong.cpp(36,24): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\mysong.cpp(68,25): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\mysong.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\mysong.cpp(92,21): warning C4018: '<': signed/unsigned mismatch
+﻿  personhandler.cpp
+C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\personhandler.cpp(51,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\ExercisesGamesByHerPart2\personhandler.cpp(76,21): warning C4018: '<': signed/unsigned mismatch
   ExercisesGamesByHerPart2.vcxproj -> C:\Users\Ingeborg\Documents\GitHub\Games-By-her-Exercises-Part2\ExercisesGamesByHerPart2\Debug\ExercisesGamesByHerPart2.exe
